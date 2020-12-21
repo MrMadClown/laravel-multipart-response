@@ -1,0 +1,23 @@
+{
+  "name": "mrmadclown/laravel-multipart-response",
+  "description": "A Laravel Package for Multipart Responses.",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "illuminate/routing": "^8.19",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrMadClown\\LaravelMultipartResponse\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MrMadClown\\LaravelMultipartResponse\\ServiceProvider"
+      ]
+    }
+  }
+}
